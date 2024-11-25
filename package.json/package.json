@@ -1,0 +1,19 @@
+{
+    "name": "group_project",
+    "description": "server-side application deployed on the cloud",
+    "author": "comps381f_group44",
+    "version": "0.0.1",
+    "dependencies": {
+		"body-parser": "^1.20.2",
+		"ejs": "^3.1.9",
+        "express": "4.0"
+    },
+    "engine": "node >= 16.0.0",
+    "scripts": {
+        "start": "node ./server.js"
+    }
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/"
+  },
+}

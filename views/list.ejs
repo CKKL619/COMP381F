@@ -1,0 +1,13 @@
+<html>
+    <head> 
+        <link rel = "stylesheet" type="text/css" href = "style.css">
+       </head>
+    <body>
+        <div class="container">
+            <h1 class="welcome-message">Welcome, <%= user.name %></h1>
+            <hr/>
+            <p class="login-info">You logged in through <b><%= user.type %></b>, user ID is <%= user.id %></p>
+            <p><a class="logout-link" href='/logout'>Logout</a></p>
+        </div>
+    </body>
+</html>
